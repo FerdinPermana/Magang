@@ -13,7 +13,7 @@ Feature:  Reimbursement
 		When User add Klaim Kacamata
 		When User Upload Dokumen dan kirim Kacamata
 		When User filter dan reset table Kacamata
-		When User show entries 100 Kaacamata
+		When User show entries 100 Kacamata
 		Then User searches by date Kacamata
 		
 	Scenario: Approval Klaim Kacamata
@@ -30,4 +30,3 @@ Feature:  Reimbursement
 		
 	Scenario: Entertainment Approval
 		When User click Entertainment Approval
-		
