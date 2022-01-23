@@ -13,8 +13,8 @@ Feature:  Reimbursement
 		When User add Klaim Kacamata
 		When User Upload Dokumen dan kirim Kacamata
 		When User filter dan reset table Kacamata
-		When User show entries 100
-		Then User searches by date
+		When User show entries 100 Kaacamata
+		Then User searches by date Kacamata
 		
 	Scenario: Approval Klaim Kacamata
 		When User click Approval Klaim Kacamata
