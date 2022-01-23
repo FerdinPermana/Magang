@@ -191,7 +191,7 @@ public class StepDefinition {
 	@When("^User filter dan reset table Asuransi")
 	public void User_filter_dan_reset_table_Asuransi() {
 		klaimasuransi.filterreset();
-		extentTest.log(LogStatus.PASS, "User filter dan reset table");
+		extentTest.log(LogStatus.FAIL, "User Fail filter dan reset table");
 	}
 	
 	@When("^User show entries 100 Asuransi")
@@ -203,7 +203,7 @@ public class StepDefinition {
 	@Then("^User searches by date Asuransi")
 	public void User_searches_by_date_Asuransi() {
 		klaimasuransi.search(configurationProperties.getSearch());
-		extentTest.log(LogStatus.FAIL, "User  Fail searches by date");
+		extentTest.log(LogStatus.FAIL, "User Fail searches by date");
 	}
 	
 	@When("^User click Klaim Kacamata")
